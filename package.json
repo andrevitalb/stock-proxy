@@ -1,0 +1,17 @@
+{
+	"name": "stock-proxy",
+	"version": "1.0.0",
+	"scripts": {
+		"start:dev": "yarn start:mock & yarn start:proxy",
+		"start:mock": "bun src/exampleServer.js",
+		"start:proxy": "bun src/index.ts",
+		"typecheck": "tsc --pretty"
+	},
+	"dependencies": {
+		"nodemon": "^3.0.1",
+		"typescript": "^5.2.2"
+	},
+	"devDependencies": {
+		"bun-types": "^1.0.3"
+	}
+}

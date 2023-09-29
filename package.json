@@ -2,7 +2,7 @@
 	"name": "stock-proxy",
 	"version": "1.0.0",
 	"scripts": {
-		"start:dev": "yarn start:mock & yarn start:proxy",
+		"start:dev": "bun start:mock & bun start:proxy",
 		"start:mock": "bun src/exampleServer.js",
 		"start:proxy": "bun src/index.ts",
 		"typecheck": "tsc --pretty",

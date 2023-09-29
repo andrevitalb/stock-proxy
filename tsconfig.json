@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"outDir": "dist",
+		"rootDir": "src",
+		"baseUrl": "src",
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"incremental": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"preserveSymlinks": true,
+		"resolveJsonModule": true,
+		"types": ["bun-types"]
+	},
+	"include": ["**/*.ts", ".eslintrc.js"],
+	"exclude": ["node_modules/", "build/", "dist/"]
+}

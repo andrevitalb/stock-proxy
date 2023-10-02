@@ -19,8 +19,7 @@
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"preserveSymlinks": true,
-		"resolveJsonModule": true,
-		"types": ["bun-types"]
+		"resolveJsonModule": true
 	},
 	"include": ["**/*.ts", ".eslintrc.js"],
 	"exclude": ["node_modules/", "build/", "dist/"]
